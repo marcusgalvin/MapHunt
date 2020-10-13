@@ -1,5 +1,7 @@
 package Oct8;
 
+import java.util.Arrays;
+
 public class Hunt {
 	
 	
@@ -38,6 +40,8 @@ public class Hunt {
 			res[0] = x;
 			res[1] = y;
 		}
+//		System.out.println(res);
+		System.out.println(Arrays.toString(res));
 		return res;
 						
 	}
